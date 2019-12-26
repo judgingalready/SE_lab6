@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Register Page</title>
+    <style>
+        body {
+            background-image: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1574615673119&di=5ef652e88f722fae505852dd3b6ffc55&imgtype=0&src=http%3A%2F%2Fbpic.ooopic.com%2F18%2F36%2F60%2F18366078-d9ccb9b283f3611156b2db8b7dcf17d3-4.jpg);
+            background-position: center center;
+            background-attachment: fixed;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-color:#cccccc;
+        }
+    </style>
+</head>
+
+<body>
+
+    <form action="/insert" method="POST" class="well"
+          style="margin: auto; margin-top: 150px;">
+        <div style="text-align: center;">
+        <h3>用户注册</h3>
+        认证ID: <br/> <label>
+        <input type="text" name="id">
+        </input></label>
+            <br/>
+            <br/>
+        用户名: <br/> <label>
+        <input type="text" name="user_name">
+        </input></label>
+            <br/>
+            <br/>
+        密码: <br/><label>
+        <input type="password" name="password">
+        </input></label>
+            <br/>
+            <br/>
+        确认密码: <br/><label>
+        <input type="password" name="password1">
+        </input></label>
+            <br/>
+            <br/>
+        <input type="submit" value="注册">
+        </input>
+            <br/>
+            <br/>
+            <br/>
+        </div>
+    </form>
+
+</body>
+</html>
